@@ -10,8 +10,11 @@
   - module PIM feature sucess search an employee
   - module PIM feature failed search an employee
   - module PIM feature sucess delete employee
+  - module Performance feature sucess add new kpi
+  - module Performance feature failed add new kpi
 
 2. Johan Chandra Putra
+
 - Test Case : Module Admin and MyInfo
 - Manual Testing : Module Admin and MyInfo
 - Automation Testing:
@@ -24,6 +27,7 @@
   - module Admin Success Delete Nationalities
 
 3. Dhia Shofi Majid
+
 - Test Case : Module Recruitment
 - Manual Testing : Module Recruitment
 - Automation Testing:
@@ -34,6 +38,21 @@
   - module recruitment success add vacancy
   - module recruitment success delete vacancy
   - module recruitment success search vacancy
-  
-4.
+
+4. Natasha Callula Liora
+
+- Test Case: Module Time
+- Manual Testing: Module Time
+- Automation Testing:
+  - Module Time feature success create timesheet
+  - Module Time feature failed create timesheet
+  - Module Time feature success punch in and out
+  - Module Time feature success view employee records
+  - Module Time feature success edit configuration punch in and out
+  - Module Time success generate project reports
+  - Module Time success generate employee reports
+  - Module Time success generate attendance summary
+  - Module Time success edit customer information
+  - Module Time success edit project information
+
 5.
