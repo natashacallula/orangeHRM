@@ -39,5 +39,20 @@
   - module recruitment success delete vacancy
   - module recruitment success search vacancy
 
-4.
+4. Natasha Callula Liora
+
+- Test Case: Module Time
+- Manual Testing: Module Time
+- Automation Testing:
+  - Module Time feature success create timesheet
+  - Module Time feature failed create timesheet
+  - Module Time feature success punch in and out
+  - Module Time feature success view employee records
+  - Module Time feature success edit configuration punch in and out
+  - Module Time success generate project reports
+  - Module Time success generate employee reports
+  - Module Time success generate attendance summary
+  - Module Time success edit customer information
+  - Module Time success edit project information
+
 5.
