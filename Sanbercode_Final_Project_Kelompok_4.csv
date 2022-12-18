@@ -1,0 +1,1897 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+3,"Search System Users",Users,15,"Johan Chandra",18933,Passed,"2022-12-18 19:47:50","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. click Admin on side menu
+6. Input Username
+7. Select Role
+8. Input Employee Name
+9. Select Status
+10. Click Search Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. E.g. Admin
+7. Admin or ESS
+8. E.g. Paul Collings
+9. Enabled or Disabled
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+6. 
+7. 
+8. 
+9. 
+10. System will Successfully find the Keyword and will show it on Record table
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+4,"Add User Admin",Users,15,"Johan Chandra",21908,Passed,"2022-12-18 19:48:13","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. click Admin on side menu
+6. Click Add Button
+7. Select User Role
+8. Select Status
+9. Input Employee Name
+10. Input Username
+11. Input Password
+12. Input Confirm Password
+13. Click Save Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. Admin or ESS
+8. Enabled or Disabled
+9. E.g. Paul Collings
+10. E.g. Paul123
+11. E.g. Paul321#
+12. E.g. Paul321#
+13. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+6. redirect to https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. A Success toast notification will appear on bottom left , the system successfully create a new user and user will be redirect to https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Passed
+12. Passed
+13. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. ",
+30,"Edit User Admin",Users,15,"Johan Chandra",18516,Passed,"2022-12-18 19:48:33","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. click Admin on side menu
+6. Find and Click Pencil Icon on the Action record on user column whose you want to edit
+7. Edit User data
+8. Click Save Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. E.g. Admin
+7. E.g. User Role Admin to ESS
+8. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+6. Redirect to Edit User slug, now user data can be edited
+7. Change data you want to change
+8. A success toast will appear, system already record the change.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+19,"Delete User Admin",Users,15,"Johan Chandra",11203,Passed,"2022-12-18 19:48:45","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Admin on side menu
+6. Find and Click Trash Bin Icon on the Action record on whose user you want to delete
+7. Click Yes, Delete
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+6. Confirmation pop up will appear
+7. A success toast will be appear, system success deleted a user
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+34,"Delete Multiple Users",Users,15,"Johan Chandra",10825,Passed,"2022-12-18 19:48:57","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. click Admin on side menu
+6. On the record table, Check any users to be deleted
+7. Click Delete Selected
+8. Click Yes, Delete
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+6. Checkbox on left side of username will be checked
+7. Confirmation pop up will appear
+8. A success toast will be appear, system success deleted any selected Users
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+31,"Add Nationalities",Nationalities,16,"Johan Chandra",12058,Passed,"2022-12-18 19:49:10","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. click Admin on side menu
+6. Click Nationalities on middle top
+7. Click Add Button
+8. Input Nationality
+9. Click Save
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. E.g. Indonesia
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+6. redirect to https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality
+7. Add Nationality form will appear
+8. Textfield will be filled
+9. A success toast will be appear, and nationality are successfully added to the system
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+33,"Delete Nationalities",Nationalities,16,"Johan Chandra",10463,Passed,"2022-12-18 19:49:21","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. click Admin on side menu
+6. Click Nationalities on middle top
+7. Find and Click Trashbin Icon on the Action record on whose nationality you want to delete
+8. Click Yes, Delete
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers
+6. redirect to https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality
+7. Confirmation pop up will appear
+8. A success toast will be appear, system success deleted a nationality
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+1,"Success Add New Employee",PIM,1,"Johan Chandra",18993,Passed,"2022-12-18 19:49:41","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click PIM button on the sidebar
+6. Click + Add button
+7. Input First Name
+8. Input Last Name
+9. Click Save button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. E.g., FirstNameTest
+8. E.g., LastNameTest
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+6. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee
+7. 
+8. 
+9. A success toast notification will appear, the system successfully created a new employee, and user will be redirected to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/:id
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+2,"Success Delete Employee",PIM,1,"Johan Chandra",10110,Passed,"2022-12-18 19:49:52","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click PIM button on the sidebar
+6. Search for an employee to delete
+7. Click Trash Icon Button on the Actions column
+8. Click Yes, Delete Button on the pop up modal
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+6. 
+7. 
+8. A success toast notification will appear and the employee was successfully deleted from the system
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+36,"Success Search Employee",PIM,1,"Johan Chandra",10139,Passed,"2022-12-18 19:50:04","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click PIM button on the sidebar
+6. Click and Add TestFirstName on the Employee name form
+7. Click search icon
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. TestFirstName
+7. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+6. 
+7. Found the TestFirstName TestLastName user record
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+37,"Failed Add New Employee",PIM,1,"Johan Chandra",14556,Passed,"2022-12-18 19:50:20","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click PIM button on the sidebar
+6. Click + Add button
+7. Input First Name
+8. Input Last Name
+9. Input Employee Id
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. E.g., FirstNameTest
+8. E.g., LastNameTest
+9. Input used Employee Id
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+6. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee
+7. 
+8. 
+9. We cannot add new employee and ""Employee Id already exists"" will appear
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+38,"Failed Search Employee",PIM,1,"Johan Chandra",8523,Passed,"2022-12-18 19:50:29","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click PIM button on the sidebar
+6. Click and Add TestInvalidFirstName on the Employee name form
+7. Click search icon
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. TestInvalidFirstName
+7. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList
+6. 
+7. No Records Found
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+5,"Success Apply Leave",Leave,6,"Johan Chandra",13784,Passed,"2022-12-18 19:50:44","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click on Leave menu on the sidebar
+6. Click on Apply menu
+7. Select the Leave Type drop down
+8. Select the From Date
+9. Select the To Date
+10. Select the Duration drop down
+11. Click on Apply button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. CAN - Bereavement
+8. 2022-12-30
+9. 2022-12-30
+10. Full Day
+11. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave
+7. 
+8. 
+9. 
+10. 
+11. Leave successfully saved and all the fields cleared
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. ",
+15,"Failed Apply Leave",Leave,6,"Johan Chandra",10075,Passed,"2022-12-18 19:50:55","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Leave menu on the sidebar
+6. Click on Apply menu
+7. Click on Apply button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave
+7. ""Required"" warning shown on Leave Type, From Date, and To Date fields
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+16,"Success Search My Leave",Leave,6,"Johan Chandra",12589,Passed,"2022-12-18 19:51:09","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Recruitment menu on the sidebar
+6. Click on My Leave menu
+7. Select the From Date
+8. Select the To Date
+9. Select Leave Type
+10. Click on the Search button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 2022-12-30
+8. 2022-12-30
+9. CAN - Bereavement
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+6. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList
+7. 
+8. 
+9. 
+10. Search result successfully found on 2022-12-30 with ""CAN - Bereavement"" type
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+17,"Success Assign Leave",Leave,6,"Johan Chandra",21673,Passed,"2022-12-18 19:51:31","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Leave menu on the sidebar
+6. Click on Assign menu
+7. Type on Employee Name
+8. Click on Employee Name option
+9. Select Leave Type
+10. Select the Form Date
+11. Select the To Date
+12. Select Duration
+13. Select From
+14. Select To
+15. Type on Comment
+16. Click on Assign button
+17. Click OK on Confirm Leave Assignment dialog
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. Charlie
+8. Charlie Carter
+9. CAN - FMLA
+10. 2022-12-30
+11. 2022-12-30
+12. Specify Time
+13. 11:00 AM
+14. 05.00 PM
+15. Check up to doctor
+16. 
+17. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave
+7. ""Charlie Carter"" option shown
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. Confirm Leave Assignment dialog shown
+17. Leave saved successfully
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Passed
+12. Passed
+13. Passed
+14. Passed
+15. Passed
+16. Passed
+17. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+14. 
+15. 
+16. 
+17. ",
+18,"Failed Assign Leave",Leave,6,"Johan Chandra",15523,Passed,"2022-12-18 19:51:48","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Leave menu on the sidebar
+6. Click on Assign Menu
+7. Type on Employee Name
+8. Click on Employee Name option
+9. Select Leave Type
+10. Select the Form Date
+11. Select the To Date
+12. Click on Assign Button
+13. Click OK on Confirm Leave Assignment dialog
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. Charlie
+8. Charlie Carter
+9. CAN - Bereavement
+10. 2022-12-31
+11. 2022-12-31
+12. 
+13. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave
+7. ""Charlie Carter"" option shown
+8. 
+9. 
+10. 
+11. 
+12. Confirm Leave Assignment dialog shown
+13. Cannot save Leave. Message ""Error Failed to submit. No Working day to submit."" shown
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Passed
+12. Passed
+13. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. ",
+20,"Success Create Timesheet",Timesheets,10,"Johan Chandra",13966,Passed,"2022-12-18 19:52:03","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click My Timesheets
+7. Clicik Edit
+8. Select the project and activity.
+9. Input a period of time and skip the project and activity sections
+10. Click Save button
+11. Click Submit button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. Employee timesheet created successfully
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. ",
+21,"Failed Create Timesheet",Timesheets,10,"Johan Chandra",11604,Passed,"2022-12-18 19:52:16","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click My Timesheets
+7. Click Edit button
+8. Input a period of time and skip the project and activity sections
+9. Click Save button
+10. Click Submit button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. Failed to create timesheet due to incomplete data
+10. 
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,"Not set",Normal,Automated,Exploratory,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+22,"Punch In and Out",Attendance,11,"Johan Chandra",12256,Passed,"2022-12-18 19:52:29","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click Attendance
+7. Click Punch in/out
+8. Click In button
+9. Click Out button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. The attendance is successful and the attendance record is created
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+23,"Employee Records",Attendance,11,"Johan Chandra",11088,Passed,"2022-12-18 19:52:41","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click Attendance
+7. Click Employee Records
+8. Select the available record data
+9. Click View button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. The employee attendance record has been successfully displayed
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+24,"Edit Configuration",Attendance,11,"Johan Chandra",12042,Passed,"2022-12-18 19:52:54","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click Attendance
+7. Click Configuration
+8. Turn off the Employee can change current time when punching in/out setting button
+9. Click Save button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. Settings have been updated successfully
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+25,"Project Reports",Reports,12,"Johan Chandra",17152,Passed,"2022-12-18 19:53:12","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Clicik Reports
+7. Clicik Project Reports
+8. Select the name of the project to generate the report
+9. Clicik View button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. Reports are successfully generated
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+26,"Employee Reports",Reports,12,"Johan Chandra",12866,Passed,"2022-12-18 19:53:26","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click Reports
+7. Click Employee Report
+8. Select Employee Name
+9. Select Project Name
+10. Click View button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. 
+10. Reports are successfully generated.
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+27,"Attendance Summary",Reports,12,"Johan Chandra",9662,Passed,"2022-12-18 19:53:37","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click Reports
+7. Click Attendance Summary
+8. Select Employee Name
+9. Click View button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. Reports are successfully generated
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+28,"Edit Customer Information","Project Info",13,"Johan Chandra",12058,Passed,"2022-12-18 19:53:50","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click Project info
+7. Click Customers
+8. Click edit button on the available customer records
+9. Add comment
+10. Click Save button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. "" ...... ""
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. 
+10. Information on records successfully added
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+29,"Edit Project Information","Project Info",13,"Johan Chandra",12196,Passed,"2022-12-18 19:54:03","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Time
+6. Click Project info
+7. Click Projects
+8. Click edit on the available records
+9. Add comment
+10. Click Save button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. "" .... ""
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. 
+6. 
+7. 
+8. 
+9. 
+10. Information on records successfully added
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,"Not set",Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+6,"Add Candidate",Candidates,8,"Johan Chandra",12800,Passed,"2022-12-18 19:54:17","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Recruitment menu on the sidebar
+6. Click Add Button
+7. Input First Name
+8. Input Last Name
+9. Input Email
+10. Click Save Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. Martin
+8. Junior
+9. martinus@orange.com
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate
+7. 
+8. 
+9. 
+10. Successfully updated and redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate/:id
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,"Not set",Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+8,"Delete Candidate",Candidates,8,"Johan Chandra",11926,Passed,"2022-12-18 19:54:30","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Recruitment menu on the sidebar
+6. Click Trash Icon on the candidate column
+7. Klik Yes, Delete Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+6. Pop-up window is opens
+7. The candidate was successfully deleted
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,"Not set",Normal,"Not automated",Other,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+9,"View Candidate",Candidates,8,"Johan Chandra",7822,Passed,"2022-12-18 19:54:39","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Recruitment menu on the sidebar
+6. Klik Eye Icon on the candidate column
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addCandidate/:id
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+",,"Not set",Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. ",
+10,"Search Candidates",Candidates,8,"Johan Chandra",16282,Passed,"2022-12-18 19:54:56","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Recruitment menu on the sidebar
+6. Click Down Button Icon
+7. Select Job Title
+8. Select Vacancy
+9. Input Candidate Name
+10. Click Search Button
+11. Click Reset Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. QA Engineer
+8. Senior QA Lead
+9. Peter
+10. 
+11. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+6. Search form appears
+7. 
+8. 
+9. Candidate name is valid
+10. Records found the candidate with the name
+11. Name which input is deleted
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Passed
+",,"Not set",Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. ",
+11,"Add Vacancy",Vacancies,9,"Johan Chandra",14276,Passed,"2022-12-18 19:55:12","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Vacancies Button
+6. Click Add Button
+7. Input Vacancy Name
+8. Select Job Title
+9. Input Hiring Manager
+10. Click Save Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. Junior Quality Assurance
+8. QA Engineer
+9. Peter Mac Anderson
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy
+7. 
+8. 
+9. 
+10. Vacancy successfully updated and redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy/:id
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,"Not set",Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+12,"Delete Vacancy",Vacancies,9,"Johan Chandra",10630,Passed,"2022-12-18 19:55:23","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Recruitment menu on the sidebar
+6. Click Vacancies Button
+7. Click Trash Icon on the vacancy column
+8. Klik Yes, Delete Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy
+7. Pop-up window is opens
+8. The candidate was successfully deleted
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+",,"Not set",Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+13,"Edit Vacancy",Vacancies,9,"Johan Chandra",11926,Passed,"2022-12-18 19:55:36","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Recruitment menu on the sidebar
+6. Click Vacancies Button
+7. Click Pencil Icon on the vacancy column
+8. Change the Job Title
+9. Click Save Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. Head of Support
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy
+7. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy/:id
+8. 
+9. Successfully updated and redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/addJobVacancy/:id
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,"Not set",Normal,"Not automated",Other,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+14,"Search Vacancy",Vacancies,9,"Johan Chandra",15537,Passed,"2022-12-18 19:55:53","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Recruitment menu on the sidebar
+6. Click Vacancies Button
+7. Click Down Button Icon
+8. Select Job Title
+	1. Click Search Button
+	2. Click Reset Button
+9. Select Vacancy
+	1. Click Search Button
+	2. Click Reset Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. Software Engineer
+	1. 
+	2. 
+9. Senior QA Lead
+	1. 
+	2. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates
+6. Redirect to https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy
+7. Search form appears
+8. 
+	1. Records found the vacancy with the job title
+	2. Job title which selected is deleted
+9. 
+	1. Records found the vacancy with vacanc
+	2. Vacancy which selected is deleted
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Untested
+8.1. Passed
+8.2. Passed
+9. Untested
+9.1. Passed
+9.2. Passed
+",,"Not set",Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+32,"Edit Personal Info",MyInfo,4,"Johan Chandra",7679,Passed,"2022-12-18 19:56:03","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click My Info Menu on sidemenu
+6. Edit Data
+7. Click Save
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. redirect to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+6. Change Data information that user want to change
+7. A success toast will be appear, information already successfully change on the system
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+35,"Edit Contact Details",MyInfo,4,"Johan Chandra",13710,Passed,"2022-12-18 19:56:17","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click My Info Menu on sidemenu
+6. Input Street 1, Street 2, City, State, Zip/Postal Code
+7. Select Country
+8. Input Telephone, Mobile, Work
+9. Input Email
+10. Click Save Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. E.g. Indonesia
+8. 
+9. 
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. redirect to https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7
+6. Textfield will be filled
+7. 
+8. 
+9. 
+10. A Success toast will be appear, Contact details already updated
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
+39,"Success Add New Key Performance Indicator",Performance,2,"Johan Chandra",19955,Passed,"2022-12-18 19:56:38","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Performance button on the sidebar
+6. Click Configure button to pop up dropdown options
+7. Click KPIs button from the dropdown options
+8. Click + Add button
+9. Input Key Performance Indicator
+10. Input Minimum Rating
+11. Input Maximum Rating
+12. Input Job Title
+13. Click Save Button
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. E.g., KPITest
+10. E.g., 0
+11. E.g., 100
+12. E.g., Account Assistant
+13. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+6. 
+7. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchKpi
+8. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/saveKpi
+9. 
+10. 
+11. 
+12. 
+13. A success toast notification will appear, the system successfully created a key performance indicator, and user will be redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchKpi
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+11. Passed
+12. Passed
+13. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. ",
+40,"Failed Add New Key Performance Indicator",Performance,2,"Johan Chandra",14633,Passed,"2022-12-18 19:56:54","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Performance button on the sidebar
+6. Click Configure button to pop up dropdown options
+7. Click KPIs button from the dropdown options
+8. Click + Add button
+9. Do not input any value to the required form such as, Key Performance Indicator, Job Title, Minimum Rating, and Maximum Rating
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+6. 
+7. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchKpi
+8. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/saveKpi
+9. We cannot add new KPI
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. ",
+41,"Success Delete Key Performance Indicator",Performance,2,"Johan Chandra",14505,Passed,"2022-12-18 19:57:09","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2. Input Valid Username
+3. Input Valid Password
+4. Click Login button
+5. Click Performance button on the sidebar
+6. Click Configure button to pop up dropdown options
+7. Click KPIs button from the dropdown options
+8. Search for an KPI to delete
+9. Click Trash Icon Button on the Actions column
+10. Click Yes, Delete Button on the pop up modal
+","1. 
+2. Admin
+3. admin123
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+","1. 
+2. 
+3. 
+4. Logged in to the system and redirected to https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index
+5. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview
+6. 
+7. Redirected to https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchKpi
+8. 
+9. 
+10. A success toast notification will appear and the KPI was successfully deleted from the system
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+9. Passed
+10. Passed
+",,Medium,Normal,"Not automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. ",
