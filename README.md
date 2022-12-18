@@ -55,4 +55,13 @@
   - Module Time success edit customer information
   - Module Time success edit project information
 
-5.
+5. Fatima Azzahro
+
+- Test Case : Module Leave
+- Manual Testing : Module Leave
+- Automation Testing:
+  - Module Leave Success Apply Leave
+  - Module Leave Failed Apply Leave
+  - Module Leave Success Search My Leave
+  - Module Leave Failed Assign Leave
+  - Module Leave Success Assign Leave
