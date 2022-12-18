@@ -11,7 +11,6 @@ class TC_Admin(unittest.TestCase):
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
         browser = self.browser
         browser.implicitly_wait(5)
-        # browser.find_element(By.XPATH, "").click()
         browser.maximize_window()
         browser.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         browser.find_element(By.XPATH, "//div[@id='app']/div[@class='orangehrm-login-layout']/div[@class='orangehrm-login-layout-blob']//form[@action='/web/index.php/auth/validate']/div[1]/div//input[@name='username']").send_keys("Admin") #input username
