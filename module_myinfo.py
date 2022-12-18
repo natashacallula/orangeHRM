@@ -51,7 +51,7 @@ class TC_MyInfo(unittest.TestCase):
         self.assertIn('Success', response_message)
         time.sleep(5)
     
-    def test_a_editContactDetails(self):
+    def test_b_editContactDetails(self):
         browser = self.browser
         browser.find_element(By.XPATH, "//div[@id='app']//aside[@class='oxd-sidepanel']/nav[@role='navigation']//ul[@class='oxd-main-menu']//a[@href='/web/index.php/pim/viewMyDetails']/span[.='My Info']").click() #click myinfo menu
         browser.find_element(By.XPATH, "//div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']//div[@role='tablist']/div[2]/a[@href='/web/index.php/pim/contactDetails/empNumber/7']").click() #click contact details
