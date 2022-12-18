@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 
-class TestLogin(unittest.TestCase): 
+class TestPIM(unittest.TestCase): 
 
     def setUp(self): 
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
