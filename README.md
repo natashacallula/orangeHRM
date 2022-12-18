@@ -11,7 +11,16 @@
   - module PIM feature failed search an employee
   - module PIM feature sucess delete employee
 
-2.
+2. Johan Chandra Putra
+- Test Case : Module Admin and MyInfo
+- Manual Testing : Module Admin and MyInfo
+- Automation Testing:
+  - module Admin Success Search Admin Users
+  - module Admin Success Add Admin User
+  - module Admin Success Delete Admin User
+  - module Admin Success Edit Admin User
+  - module Admin Success Delete Multiple Admin User
+
 3.
 4.
 5.
