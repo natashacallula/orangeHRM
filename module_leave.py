@@ -11,9 +11,9 @@ class TC_Leave(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
         browser = self.browser
-        browser.implicitly_wait(2)
         browser.maximize_window()
-        browser.get("https://opensource-demo.orangehrmlive.com")
+        browser.get("https://opensource-demo.orangehrmlive.com/")
+        time.sleep(5)
         # precondition: user login
         browser.find_element(By.NAME,"username").send_keys("Admin") 
         browser.find_element(By.NAME,"password").send_keys("admin123") 
