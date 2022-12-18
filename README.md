@@ -21,6 +21,17 @@
   - module Admin Success Edit Admin User
   - module Admin Success Delete Multiple Admin User
 
-3.
+3. Dhia Shofi Majid
+- Test Case : Module Recruitment
+- Manual Testing : Module Recruitment
+- Automation Testing:
+  - module recruitment success add candidate
+  - module recruitment success delete candidate
+  - module recruitment success view candidate
+  - module recruitment success search candidate
+  - module recruitment success add vacancy
+  - module recruitment success delete vacancy
+  - module recruitment success search vacancy
+  
 4.
 5.
