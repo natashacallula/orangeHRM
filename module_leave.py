@@ -64,7 +64,7 @@ class TC_Leave(unittest.TestCase):
         self.assertEqual(to_date_err_message, 'Required')
 
     def test_c_success_search_my_leave(self):
-        # step to assign leave
+        # step to search my leave
         browser = self.browser
         browser.implicitly_wait(3)
         browser.find_element(By.LINK_TEXT, "Leave").click()
