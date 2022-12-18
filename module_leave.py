@@ -117,11 +117,12 @@ class TC_Leave(unittest.TestCase):
             pass
         # assert response message
         try:
-            wait = WebDriverWait(browser, 15)
+            wait = WebDriverWait(browser, 10)
             response_message = wait.until(EC.visibility_of_element_located((By.XPATH, "//*[@id='oxd-toaster_1']/div/div[1]/div[2]/p[1]"))).text
             response_message_desc = wait.until(EC.visibility_of_element_located((By.XPATH, "//*[@id='oxd-toaster_1']/div/div[1]/div[2]/p[2]"))).text
             self.assertEqual(response_message, 'Error')
             self.assertIn('No Working Days Selected', response_message_desc)
+            time.sleep(5)
         except:
             assert False
 
@@ -164,11 +165,12 @@ class TC_Leave(unittest.TestCase):
             pass
         # assert response message
         try:
-            wait = WebDriverWait(browser, 15)
+            wait = WebDriverWait(browser, 10)
             response_message = wait.until(EC.visibility_of_element_located((By.XPATH, "//*[@id='oxd-toaster_1']/div/div[1]/div[2]/p[1]"))).text
             response_message_desc = wait.until(EC.visibility_of_element_located((By.XPATH, "//*[@id='oxd-toaster_1']/div/div[1]/div[2]/p[2]"))).text
             self.assertEqual(response_message, 'Success')
             self.assertIn('Successfully Saved', response_message_desc)
+            time.sleep(5)
         except:
             assert False
 
