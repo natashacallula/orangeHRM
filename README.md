@@ -20,6 +20,8 @@
   - module Admin Success Delete Admin User
   - module Admin Success Edit Admin User
   - module Admin Success Delete Multiple Admin User
+  - module Admin Success Add Nationalities
+  - module Admin Success Delete Nationalities
 
 3. Dhia Shofi Majid
 - Test Case : Module Recruitment
