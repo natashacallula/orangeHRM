@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.keys import Keys
 
 class TC_MyInfo(unittest.TestCase):
     def setUp(self):
@@ -18,7 +19,7 @@ class TC_MyInfo(unittest.TestCase):
         browser.find_element(By.XPATH, "//div[@id='app']/div[@class='orangehrm-login-layout']/div[@class='orangehrm-login-layout-blob']//form[@action='/web/index.php/auth/validate']/div[3]/button[@type='submit']").click() #click submit button
         time.sleep(3)
 
-    def test_a_searchUser(self):
+    def test_a_editPersonalInfo(self):
         browser = self.browser
         browser.find_element(By.XPATH, "//div[@id='app']//aside[@class='oxd-sidepanel']/nav[@role='navigation']//ul[@class='oxd-main-menu']//a[@href='/web/index.php/pim/viewMyDetails']").click()
         time.sleep(8)

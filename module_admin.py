@@ -11,6 +11,7 @@ class TC_Admin(unittest.TestCase):
         self.browser = webdriver.Chrome(ChromeDriverManager().install())
         browser = self.browser
         browser.implicitly_wait(5)
+        # browser.find_element(By.XPATH, "").click()
         browser.maximize_window()
         browser.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
         browser.find_element(By.XPATH, "//div[@id='app']/div[@class='orangehrm-login-layout']/div[@class='orangehrm-login-layout-blob']//form[@action='/web/index.php/auth/validate']/div[1]/div//input[@name='username']").send_keys("Admin") #input username
@@ -53,7 +54,7 @@ class TC_Admin(unittest.TestCase):
 
     def test_c_deleteUser(self):
         browser = self.browser
-        browser.find_element(By.XPATH, "//div[@id='app']//aside[@class='oxd-sidepanel']/nav[@role='navigation']//ul[@class='oxd-main-menu']//a[@href='/web/index.php/admin/viewAdminModule']").click( #click admin menu
+        browser.find_element(By.XPATH, "//div[@id='app']//aside[@class='oxd-sidepanel']/nav[@role='navigation']//ul[@class='oxd-main-menu']//a[@href='/web/index.php/admin/viewAdminModule']").click() #click admin menu
         browser.find_element(By.XPATH, "//div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']//div[@role='table']/div[2]/div[5]/div[@role='row']/div[1]//i").click() #click row user
         browser.find_element(By.XPATH, "//div[@id='app']/div[@class='oxd-layout']/div[@class='oxd-layout-container']/div[@class='oxd-layout-context']//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']//button[@type='button']").click() #click delete selected 
         time.sleep(3)
@@ -93,7 +94,7 @@ class TC_Admin(unittest.TestCase):
         self.assertIn('Success', response_message)
         time.sleep(5)
 
-    Admin menu -> Nationalities
+    # Admin menu -> Nationalities
     def test_f_addNationalities(self):
         browser = self.browser
         browser.find_element(By.XPATH, "//div[@id='app']//aside[@class='oxd-sidepanel']/nav[@role='navigation']//ul[@class='oxd-main-menu']//a[@href='/web/index.php/admin/viewAdminModule']").click() #click admin menu
