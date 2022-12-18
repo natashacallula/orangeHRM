@@ -63,6 +63,33 @@ class TC_Leave(unittest.TestCase):
         self.assertEqual(from_date_err_message, 'Required')
         self.assertEqual(to_date_err_message, 'Required')
 
+    def test_c_success_search_my_leave(self):
+        # step to assign leave
+        browser = self.browser
+        browser.implicitly_wait(3)
+        browser.find_element(By.LINK_TEXT, "Leave").click()
+        browser.find_element(By.LINK_TEXT, "My Leave").click()
+        time.sleep(3)
+        browser.find_element(By.XPATH, "//form[@class='oxd-form']/div[@class='oxd-form-row']/div/div[1]/div/div[2]/div[@class='oxd-date-wrapper']/div[@class='oxd-date-input']/input[@placeholder='yyyy-mm-dd']").click()
+        browser.find_element(By.XPATH, "//form[@class='oxd-form']/div[@class='oxd-form-row']//div[.='Clear']").click()
+        browser.find_element(By.XPATH, "//form[@class='oxd-form']/div[@class='oxd-form-row']/div/div[1]/div/div[2]/div[@class='oxd-date-wrapper']/div[@class='oxd-date-input']/input[@placeholder='yyyy-mm-dd']").send_keys("2022-12-30")
+        time.sleep(3)
+        browser.find_element(By.XPATH, " //form[@class='oxd-form']/div[@class='oxd-form-row']/div/div[2]/div/div[2]/div[@class='oxd-date-wrapper']/div[@class='oxd-date-input']/input[@placeholder='yyyy-mm-dd']").click()
+        browser.find_element(By.XPATH, "//form[@class='oxd-form']/div[@class='oxd-form-row']//div[.='Clear']").click()
+        browser.find_element(By.XPATH, "//form[@class='oxd-form']/div[@class='oxd-form-row']/div/div[2]/div/div[2]/div[@class='oxd-date-wrapper']/div[@class='oxd-date-input']/input[@placeholder='yyyy-mm-dd']").send_keys("2022-12-30")
+        time.sleep(3)
+        browser.find_element(By.XPATH, "//div[@class='oxd-select-wrapper']/div/div[@class='oxd-select-text-input']").click()
+        browser.find_element(By.XPATH, "//span[text()='CAN - Bereavement']").click()
+        browser.find_element(By.XPATH, "//div[@class='oxd-table-filter-area']/form[@class='oxd-form']//button[@type='submit']").click()
+        time.sleep(5)
+        # assert response message
+        response_message_date = browser.find_element(
+            By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/div/div[2]/div").text
+        response_message_type = browser.find_element(
+            By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/div/div[4]/div").text
+        self.assertIn('2022-12-30', response_message_date)
+        self.assertEqual(response_message_type, 'CAN - Bereavement')
+
     def tearDown(self):
         self.browser.close()
 
