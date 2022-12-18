@@ -18,26 +18,28 @@
 - Test Case : Module Admin and MyInfo
 - Manual Testing : Module Admin and MyInfo
 - Automation Testing:
-  - module Admin Success Search Admin Users
-  - module Admin Success Add Admin User
-  - module Admin Success Delete Admin User
-  - module Admin Success Edit Admin User
-  - module Admin Success Delete Multiple Admin User
-  - module Admin Success Add Nationalities
-  - module Admin Success Delete Nationalities
+  - module Admin feature Success Search Admin Users
+  - module Admin feature Success Add Admin User
+  - module Admin feature Success Delete Admin User
+  - module Admin feature Success Edit Admin User
+  - module Admin feature Success Delete Multiple Admin User
+  - module Admin feature Success Add Nationalities
+  - module Admin feature Success Delete Nationalities
+  - module MyInfo feature Success Edit Personal Info
+  - module MyInfo feature Success Edit Contact Details
 
 3. Dhia Shofi Majid
 
 - Test Case : Module Recruitment
 - Manual Testing : Module Recruitment
 - Automation Testing:
-  - module recruitment success add candidate
-  - module recruitment success delete candidate
-  - module recruitment success view candidate
-  - module recruitment success search candidate
-  - module recruitment success add vacancy
-  - module recruitment success delete vacancy
-  - module recruitment success search vacancy
+  - module recruitment feature success add candidate
+  - module recruitment feature success delete candidate
+  - module recruitment feature success view candidate
+  - module recruitment feature success search candidate
+  - module recruitment feature success add vacancy
+  - module recruitment feature success delete vacancy
+  - module recruitment feature success search vacancy
 
 4. Natasha Callula Liora
 
