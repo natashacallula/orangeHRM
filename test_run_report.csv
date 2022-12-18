@@ -314,7 +314,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 6. 
 7. 
 8. ",
-1,"Success Add New Employee",PIM,1,"Johan Chandra",18993,Passed,"2022-12-18 19:49:41","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+1,"Success Add New Employee",PIM,1,Kelompok4Sanbercode,18993,Passed,"2022-12-18 19:49:41","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -359,7 +359,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-2,"Success Delete Employee",PIM,1,"Johan Chandra",10110,Passed,"2022-12-18 19:49:52","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+2,"Success Delete Employee",PIM,1,Kelompok4Sanbercode,10110,Passed,"2022-12-18 19:49:52","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -399,7 +399,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 6. 
 7. 
 8. ",
-36,"Success Search Employee",PIM,1,"Johan Chandra",10139,Passed,"2022-12-18 19:50:04","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+36,"Success Search Employee",PIM,1,Kelompok4Sanbercode,10139,Passed,"2022-12-18 19:50:04","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -434,7 +434,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 5. 
 6. 
 7. ",
-37,"Failed Add New Employee",PIM,1,"Johan Chandra",14556,Passed,"2022-12-18 19:50:20","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+37,"Failed Add New Employee",PIM,1,Kelompok4Sanbercode,14556,Passed,"2022-12-18 19:50:20","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -479,7 +479,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-38,"Failed Search Employee",PIM,1,"Johan Chandra",8523,Passed,"2022-12-18 19:50:29","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+38,"Failed Search Employee",PIM,1,Kelompok4Sanbercode,8523,Passed,"2022-12-18 19:50:29","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -514,7 +514,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 5. 
 6. 
 7. ",
-5,"Success Apply Leave",Leave,6,"Johan Chandra",13784,Passed,"2022-12-18 19:50:44","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+5,"Success Apply Leave",Leave,6,Kelompok4Sanbercode,13784,Passed,"2022-12-18 19:50:44","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -569,7 +569,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 9. 
 10. 
 11. ",
-15,"Failed Apply Leave",Leave,6,"Johan Chandra",10075,Passed,"2022-12-18 19:50:55","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+15,"Failed Apply Leave",Leave,6,Kelompok4Sanbercode,10075,Passed,"2022-12-18 19:50:55","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -604,7 +604,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 5. 
 6. 
 7. ",
-16,"Success Search My Leave",Leave,6,"Johan Chandra",12589,Passed,"2022-12-18 19:51:09","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+16,"Success Search My Leave",Leave,6,Kelompok4Sanbercode,12589,Passed,"2022-12-18 19:51:09","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -654,7 +654,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 8. 
 9. 
 10. ",
-17,"Success Assign Leave",Leave,6,"Johan Chandra",21673,Passed,"2022-12-18 19:51:31","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+17,"Success Assign Leave",Leave,6,Kelompok4Sanbercode,21673,Passed,"2022-12-18 19:51:31","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -739,7 +739,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 15. 
 16. 
 17. ",
-18,"Failed Assign Leave",Leave,6,"Johan Chandra",15523,Passed,"2022-12-18 19:51:48","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+18,"Failed Assign Leave",Leave,6,Kelompok4Sanbercode,15523,Passed,"2022-12-18 19:51:48","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -804,7 +804,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 11. 
 12. 
 13. ",
-20,"Success Create Timesheet",Timesheets,10,"Johan Chandra",13966,Passed,"2022-12-18 19:52:03","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+20,"Success Create Timesheet",Timesheets,10,Kelompok4Sanbercode,13966,Passed,"2022-12-18 19:52:03","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -859,7 +859,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 9. 
 10. 
 11. ",
-21,"Failed Create Timesheet",Timesheets,10,"Johan Chandra",11604,Passed,"2022-12-18 19:52:16","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+21,"Failed Create Timesheet",Timesheets,10,Kelompok4Sanbercode,11604,Passed,"2022-12-18 19:52:16","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -909,7 +909,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 8. 
 9. 
 10. ",
-22,"Punch In and Out",Attendance,11,"Johan Chandra",12256,Passed,"2022-12-18 19:52:29","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+22,"Punch In and Out",Attendance,11,Kelompok4Sanbercode,12256,Passed,"2022-12-18 19:52:29","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -954,7 +954,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-23,"Employee Records",Attendance,11,"Johan Chandra",11088,Passed,"2022-12-18 19:52:41","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+23,"Employee Records",Attendance,11,Kelompok4Sanbercode,11088,Passed,"2022-12-18 19:52:41","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -999,7 +999,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-24,"Edit Configuration",Attendance,11,"Johan Chandra",12042,Passed,"2022-12-18 19:52:54","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+24,"Edit Configuration",Attendance,11,Kelompok4Sanbercode,12042,Passed,"2022-12-18 19:52:54","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1044,7 +1044,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-25,"Project Reports",Reports,12,"Johan Chandra",17152,Passed,"2022-12-18 19:53:12","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+25,"Project Reports",Reports,12,Kelompok4Sanbercode,17152,Passed,"2022-12-18 19:53:12","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1089,7 +1089,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-26,"Employee Reports",Reports,12,"Johan Chandra",12866,Passed,"2022-12-18 19:53:26","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+26,"Employee Reports",Reports,12,Kelompok4Sanbercode,12866,Passed,"2022-12-18 19:53:26","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1139,7 +1139,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 8. 
 9. 
 10. ",
-27,"Attendance Summary",Reports,12,"Johan Chandra",9662,Passed,"2022-12-18 19:53:37","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+27,"Attendance Summary",Reports,12,Kelompok4Sanbercode,9662,Passed,"2022-12-18 19:53:37","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1184,7 +1184,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-28,"Edit Customer Information","Project Info",13,"Johan Chandra",12058,Passed,"2022-12-18 19:53:50","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+28,"Edit Customer Information","Project Info",13,Kelompok4Sanbercode,12058,Passed,"2022-12-18 19:53:50","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1234,7 +1234,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 8. 
 9. 
 10. ",
-29,"Edit Project Information","Project Info",13,"Johan Chandra",12196,Passed,"2022-12-18 19:54:03","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+29,"Edit Project Information","Project Info",13,Kelompok4Sanbercode,12196,Passed,"2022-12-18 19:54:03","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1284,7 +1284,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 8. 
 9. 
 10. ",
-6,"Add Candidate",Candidates,8,"Johan Chandra",12800,Passed,"2022-12-18 19:54:17","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+6,"Add Candidate",Candidates,8,Kelompok4Sanbercode,12800,Passed,"2022-12-18 19:54:17","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1334,7 +1334,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 8. 
 9. 
 10. ",
-8,"Delete Candidate",Candidates,8,"Johan Chandra",11926,Passed,"2022-12-18 19:54:30","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+8,"Delete Candidate",Candidates,8,Kelompok4Sanbercode,11926,Passed,"2022-12-18 19:54:30","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1369,7 +1369,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 5. 
 6. 
 7. ",
-9,"View Candidate",Candidates,8,"Johan Chandra",7822,Passed,"2022-12-18 19:54:39","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+9,"View Candidate",Candidates,8,Kelompok4Sanbercode,7822,Passed,"2022-12-18 19:54:39","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1399,7 +1399,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 4. 
 5. 
 6. ",
-10,"Search Candidates",Candidates,8,"Johan Chandra",16282,Passed,"2022-12-18 19:54:56","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+10,"Search Candidates",Candidates,8,Kelompok4Sanbercode,16282,Passed,"2022-12-18 19:54:56","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1454,7 +1454,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 9. 
 10. 
 11. ",
-11,"Add Vacancy",Vacancies,9,"Johan Chandra",14276,Passed,"2022-12-18 19:55:12","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+11,"Add Vacancy",Vacancies,9,Kelompok4Sanbercode,14276,Passed,"2022-12-18 19:55:12","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1504,7 +1504,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 8. 
 9. 
 10. ",
-12,"Delete Vacancy",Vacancies,9,"Johan Chandra",10630,Passed,"2022-12-18 19:55:23","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+12,"Delete Vacancy",Vacancies,9,Kelompok4Sanbercode,10630,Passed,"2022-12-18 19:55:23","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1544,7 +1544,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 6. 
 7. 
 8. ",
-13,"Edit Vacancy",Vacancies,9,"Johan Chandra",11926,Passed,"2022-12-18 19:55:36","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+13,"Edit Vacancy",Vacancies,9,Kelompok4Sanbercode,11926,Passed,"2022-12-18 19:55:36","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1589,7 +1589,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-14,"Search Vacancy",Vacancies,9,"Johan Chandra",15537,Passed,"2022-12-18 19:55:53","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+14,"Search Vacancy",Vacancies,9,Kelompok4Sanbercode,15537,Passed,"2022-12-18 19:55:53","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1735,7 +1735,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 8. 
 9. 
 10. ",
-39,"Success Add New Key Performance Indicator",Performance,2,"Johan Chandra",19955,Passed,"2022-12-18 19:56:38","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+39,"Success Add New Key Performance Indicator",Performance,2,Kelompok4Sanbercode,19955,Passed,"2022-12-18 19:56:38","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1800,7 +1800,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 11. 
 12. 
 13. ",
-40,"Failed Add New Key Performance Indicator",Performance,2,"Johan Chandra",14633,Passed,"2022-12-18 19:56:54","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+40,"Failed Add New Key Performance Indicator",Performance,2,Kelompok4Sanbercode,14633,Passed,"2022-12-18 19:56:54","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
@@ -1845,7 +1845,7 @@ case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,ste
 7. 
 8. 
 9. ",
-41,"Success Delete Key Performance Indicator",Performance,2,"Johan Chandra",14505,Passed,"2022-12-18 19:57:09","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
+41,"Success Delete Key Performance Indicator",Performance,2,Kelompok4Sanbercode,14505,Passed,"2022-12-18 19:57:09","1. Go to URL [https://opensource-demo.orangehrmlive.com/](https://opensource-demo.orangehrmlive.com/)
 2. Input Valid Username
 3. Input Valid Password
 4. Click Login button
