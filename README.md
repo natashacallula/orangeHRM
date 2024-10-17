@@ -19,7 +19,7 @@ This repository contains the collaborative automation testing project for the Or
 
 ## 🚀 Tools & Technologies 🚀
 - Selenium WebDriver: For browser automation.
-= Python: Programming language.
+- Python: Programming language.
 - Qase.io: Test management for tracking scenarios.
 - GitHub: Repository management and collaboration.
 
