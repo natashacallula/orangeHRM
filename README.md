@@ -1,71 +1,41 @@
-# Final Project Quality Assurance Sanbercode Batch 40 - Kelompok 4
+# 🍊 OrangeHRM Automation Testing 🍊
+This repository contains the collaborative automation testing project for the OrangeHRM platform, forked as part of a bootcamp group assignment. The project is divided into multiple modules, each handled by a team member.
 
-##### Test Run Manual Testing Report : https://app.qase.io/public/report/ca20d667d69df5a6ffd8d01b2aead43ee8d06fb8
+## 📋 Project Modules 📋
+- Admin & My Info – Handled by Johan Chandra Putra
+- PIM & Performance – Handled by Indra Budiman
+- Leave Management – Handled by Fatima Azzahro
+- Time Management – Handled by Natasha Callula
+- Recruitment – Handled by Dhia Shofi Majid
 
-1. Indra Budiman
+[Test Scenarios documented on Qase.io](https://app.qase.io/public/report/ca20d667d69df5a6ffd8d01b2aead43ee8d06fb8)
+  
+## 🛠️ My Contribution: Time Management Module 🛠️
+- Automated workflows related to employee time tracking, including:
+- Clock in and clock out scenarios.
+- Timesheet submission and approval processes.
+- Validation of error handling for incomplete timesheets.
+- Implemented automation using Selenium WebDriver and ensured script reliability for different edge cases.
 
-- Test Case: module PIM and Performance
-- Manual Testing: module PIM and Performance
-- Automation Testing:
-  - module PIM feature sucess add new employee
-  - module PIM feature failed add new employee
-  - module PIM feature sucess search an employee
-  - module PIM feature failed search an employee
-  - module PIM feature sucess delete employee
-  - module Performance feature sucess add new kpi
-  - module Performance feature failed add new kpi
+## 🚀 Tools & Technologies 🚀
+- Selenium WebDriver: For browser automation.
+= Python: Programming language.
+- Qase.io: Test management for tracking scenarios.
+- GitHub: Repository management and collaboration.
 
-2. Johan Chandra Putra
+## 📑 How to Run 📑
+1. Clone the repository :
+   - git clone https://github.com/natashacallula/orangeHRM.git
+   - Navigate to the relevant module (e.g., TimeManagement).
+2. Install Selenium : pip install selenium
+3. Download the WebDriver:
+   - For Chrome, download ChromeDriver and ensure it matches your Chrome version.
+   - Place the chromedriver.exe in your project directory or add it to your system's PATH.
+4. Run the Automation Tests
 
-- Test Case : Module Admin and MyInfo
-- Manual Testing : Module Admin and MyInfo
-- Automation Testing:
-  - module Admin feature Success Search Admin Users
-  - module Admin feature Success Add Admin User
-  - module Admin feature Success Delete Admin User
-  - module Admin feature Success Edit Admin User
-  - module Admin feature Success Delete Multiple Admin User
-  - module Admin feature Success Add Nationalities
-  - module Admin feature Success Delete Nationalities
-  - module MyInfo feature Success Edit Personal Info
-  - module MyInfo feature Success Edit Contact Details
+## 💡 Notes 💡
+This repository is a fork of the original team project, where my primary focus was on the Time Management module, while other modules were developed by my teammates.
 
-3. Dhia Shofi Majid
+## 🎥 Mini Demo Testing 🎥
 
-- Test Case : Module Recruitment
-- Manual Testing : Module Recruitment
-- Automation Testing:
-  - module recruitment feature success add candidate
-  - module recruitment feature success delete candidate
-  - module recruitment feature success view candidate
-  - module recruitment feature success search candidate
-  - module recruitment feature success add vacancy
-  - module recruitment feature success delete vacancy
-  - module recruitment feature success search vacancy
-
-4. Natasha Callula Liora
-
-- Test Case: Module Time
-- Manual Testing: Module Time
-- Automation Testing:
-  - Module Time feature success create timesheet
-  - Module Time feature failed create timesheet
-  - Module Time feature success punch in and out
-  - Module Time feature success view employee records
-  - Module Time feature success edit configuration punch in and out
-  - Module Time success generate project reports
-  - Module Time success generate employee reports
-  - Module Time success generate attendance summary
-  - Module Time success edit customer information
-  - Module Time success edit project information
-
-5. Fatima Azzahro
-
-- Test Case : Module Leave
-- Manual Testing : Module Leave
-- Automation Testing:
-  - Module Leave Success Apply Leave
-  - Module Leave Failed Apply Leave
-  - Module Leave Success Search My Leave
-  - Module Leave Failed Assign Leave
-  - Module Leave Success Assign Leave
+[![Mini Demo Testing](https://img.youtube.com/vi/3KzfisNEhzU/0.jpg)](https://youtu.be/3KzfisNEhzU)
